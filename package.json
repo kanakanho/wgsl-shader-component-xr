@@ -1,0 +1,21 @@
+{
+  "name": "wgsl-shader-component-xr",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^9.5.1",
+    "@types/node": "^26.6.5",
+    "@webgpu/types": "^0.1.74",
+    "eslint": "^10.13.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4"
+  }
+}
